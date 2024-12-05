@@ -1,0 +1,16 @@
+# Archivos sensibles
+.env
+db.sqlite3
+
+# Archivos generados automáticamente
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Entorno virtual
+.venv/
+
+# Node.js
+node_modules/
+build/
