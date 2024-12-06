@@ -1,8 +1,6 @@
 # React-Django Template
 
-Esta plantilla combina Django para el backend y React para el frontend. Está diseñada para ser reutilizable y escalable, facilitando el inicio de nuevos proyectos.
-
----
+Esta plantilla combina Django para el backend y React para el frontend.
 
 ## Requisitos Previos
 
@@ -41,3 +39,10 @@ python backend/manage.py runserver
 
 ## Inicia el servidor React:
 npm start
+
+## Conectar el proyecto con un repositorio de Github:
+Crear new repository desde Github
+git remote add <nombre_proyecto> https://github.com/<usuario_Github>/<nombre_proyecto>
+git add .
+git commit -m "Inicializando el nuevo proyecto basado en la plantilla"
+git push -u <nombre_proyecto> main
